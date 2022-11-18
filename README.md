@@ -18,7 +18,7 @@ DB_NAME='ecommerce_db'
 DB_USER='your_username'
 DB_PW='your_password'
 ```
-To run, set up the database in mysql shell by `source ./db/schemal.sql` from the project root directory. Optionally, seed sample data with `npm run seed`. To run, use the command `npm run start` to start the server.
+To run, set up the database in mysql shell by `source ./db/schema.sql` from the project root directory. Optionally, seed sample data with `npm run seed`. To run, use the command `npm run start` to start the server.
 ## License
 This application is licensed under [The Unlicense](https://www.choosealicense.com/licenses/unlicense).
 ## Contributing
