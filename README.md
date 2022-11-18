@@ -13,7 +13,12 @@ Manage your products using a backend database that supports REST API endpoints.
 The project can be installed by cloning this repository and running `npm init -y` then `npm i` to install the necessary modules.
 ## Usage
 Set up your credentials in a `.env` file in the project root directory: 
-`DB_NAME='ecommerce_db'\nDB_USER='your_username'\nDB_PW='your_password'`. To run, set up the database in mysql shell by `source ./db/schemal.sql` from the project root directory. Optionally, seed sample data with `npm run seed`. To run, use the command `npm run start` to start the server.
+```
+DB_NAME='ecommerce_db'
+DB_USER='your_username'
+DB_PW='your_password'
+```
+To run, set up the database in mysql shell by `source ./db/schemal.sql` from the project root directory. Optionally, seed sample data with `npm run seed`. To run, use the command `npm run start` to start the server.
 ## License
 This application is licensed under [The Unlicense](https://www.choosealicense.com/licenses/unlicense).
 ## Contributing
